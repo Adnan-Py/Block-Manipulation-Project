@@ -1,0 +1,38 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+/* width: 100%; */
+}
+.pos-y input
+{
+    transform: rotate(90deg);
+    max-width: 100px;
+}
+.bg-dark
+{
+    height: 175px;
+    border-radius: 10px;
+}
+.box
+{
+    position: relative;
+}
+.box #block
+{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+}
+#block
+{
+    background-color: red;
+}
+@media screen and (max-width:992px) {
+    .col-lg
+    {
+        margin: 5px 0 !important;
+    }
+    
+}
